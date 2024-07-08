@@ -11,5 +11,5 @@ curl -4 -s -S -L -w"\n" -o- \
     -F parse_mode='Markdown' \
     -F caption="${TEXT_TO_SEND}" \
     -X POST https://api.telegram.org/bot${BOT_TOKEN}/sendDocument \
-    -F message_thread_id="${THREAD_ID}
+    -F message_thread_id="${THREAD_ID}"
     -F chat_id="${CHAT_ID}"
