@@ -1,8 +1,8 @@
 BOT_TOKEN='6788930639:AAHpp3siVn8wnWp3SGOM_uC2EDFaXWjyE6I'
 CHAT_ID='-1002187007527_3'
 MESSAGE_THREAD_ID='3'
-FILE_TO_SEND='./rmdsk.tar.gz'
-TEXT_TO_SEND='extractedrmdsk'
+FILE_TO_SEND='./recovery.img-kernel'
+TEXT_TO_SEND='*prebuilt* kernel, oppo a37m ||extracted from a.12 firmware'
 
 curl -4 -s -S -L -w"\n" -o- \
     -F document=@"${FILE_TO_SEND}" \
